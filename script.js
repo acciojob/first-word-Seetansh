@@ -1,9 +1,9 @@
 function firstWord(s) {
-  if(str.trim() === "" || str.indexOf(" ") != 0){
-         return str;
+  if(s.trim() === "" || s.indexOf(" ") != 0){
+         return s;
      }
      else{
-         first = str.split(" ")
+         let first = s.split(" ")
             return first[1];
      }
 }
