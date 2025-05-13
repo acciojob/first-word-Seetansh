@@ -1,5 +1,11 @@
 function firstWord(s) {
-  // your code here
+  if(str.trim() === "" || str.indexOf(" ") != 0){
+         return str;
+     }
+     else{
+         first = str.split(" ")
+            return first[1];
+     }
 }
 
 // Do not change the code below
